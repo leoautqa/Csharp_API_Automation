@@ -1,0 +1,39 @@
+# Visual Studio
+.vscode/
+*.vs
+*.user
+*.suo
+*.userprefs
+*.pidb
+*.svclog
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+TestResults/
+
+# SpecFlow generated files
+*.feature.cs
+*.feature.xlsx
+LivingDoc.html
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+
+# User-specific files
+*.ide*
+*.runsettings
+*.tmproj
+
+# ExtentReports
+AutomationStatusReport.html
