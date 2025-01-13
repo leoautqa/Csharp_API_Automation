@@ -45,12 +45,21 @@ Full dependency details can be found in the `csproj` file.
 ## Project Structure
 
 ```plaintext
-|-- Features
-|   |-- SampleFeature.feature  # SpecFlow feature files
-|-- StepDefinitions
-|   |-- SampleSteps.cs         # Step definition files
 |-- Common
-|   |-- CommonSteps.cs         # Shared utility methods
+|   |-- CommonSteps.cs
+|   |-- extendReport.cs
+|   |-- hooks.cs
+|   |-- variables.cs
+|-- Features
+|   |-- carrinho.feature
+|   |-- login.feature
+|   |-- Produtos.feature
+|   |-- Usuarios.feature
+|-- StepDefinitions
+|   |-- carrinho_po.cs
+|   |-- login_po.cs
+|   |-- produtos.cs
+|   |-- usuarios_po.cs
 |-- Reports
 |   |-- TestResults            # Location for generated reports
 ```
